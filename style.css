@@ -1,0 +1,39 @@
+.Seo-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-seo {
+    margin: 15px auto;
+    padding: 12px 20px;
+    font-size: 23px;
+    color: black;
+    transition-duration: 0.3s;
+    z-index: 5555;
+    
+}
+
+.icon-button-seo {
+    transform: rotate(180deg);
+    transition-duration: 0.3s;
+}
+
+.Seo-content p {
+    transition-duration: 0.4s;
+}
+
+.hidden-seo {
+    position: absolute;
+    opacity: 0;
+    top: 100px;
+}
+
+
+
+.text-gradient {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(0deg, #a0a0a0 40%, #bbbbbb 12%, #000000);
+    -webkit-background-clip: text;
+    color: #000;
+    /* transition-duration: 3s; */
+}
